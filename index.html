@@ -4,288 +4,100 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel="stylesheet" href="./content/style.css">
+    <link rel="stylesheet" href="./Content/bootstrap.css">
+    <link rel="stylesheet" href="./Content/bootstrap-theme.css".css">
     <script src="https://kit.fontawesome.com/6bb585d391.js" crossorigin="anonymous"></script>
-    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
-    <script src="/js/index.js"></script>
-    <title>CV - Mariano Montano</title>
-    </style>
+    <script src="./Scripts/jquery-3.3.1.js"></script>
+    <script src="./Scripts/bootstrap.js"></script>
+    <title>Perfil - Mariano Montano</title>
 </head>
-<body>
-    <div class="container">
-        <div class="row" style="margin: 10px 10px 10px 10px">
-            <div>
-                <!-- Language link -->
-                <a style="text-decoration: none;" href="index-en.html">
-                    <span>
-                        <i class="fas fa-language"></i>
-                        English
-                    </span>
-                </a>
+<body style="background-color:lightgray">
+    <div class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="./index-en.html">en</a> | <a href="./index.html" class="navbar-brand">Perfil</a>
             </div>
-            <div class="col-md-4">
-                <!-- perfil -->
-                <div id="panelPerfil" class="list-group">
-                    <div class="list-group-item">
-                        <div class="card" style="background-color: cadetblue">
-                            <div class="card-body">
-                                <p id="tituloPerfil" class="h4 text-center">Perfil</p>
-                            </div>
-                        </div>
-                        <div class="d-flex align-items-top mt-3">
-                            <div class="flex-shrink-0">
-                                <img style="width: 120px;" src="./content/fotoperfil.jpg" alt="foto de perfil"></i>
-                            </div>
-                            <div class="flex-grow-1 ms-3">
-                                <p id="datosPerfil" style="background-color: azure;">
-                                    Analista programador .NET Jr. Desarrollador de software de escritorio y web en .Net Framework y .Net Core. Padre de dos nenas. Amante de la tecnología. Autodidacta en aprendizaje contínuo de nuevas tecnologías y habilidades. Soy muy alegre y me gusta siempre dejar lo mejor en lo que hago.
-                                </p>
-                            </div>
-                        </div>
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                    <li><a href="./Spanish/Estudios.html">Estudios</a></li>
+                    <li><a href="./Spanish/Experiencia.html">Experiencia Laboral</a></li>
+                    <li><a href="./Spanish/Habilidades.html">Habilidades</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div style="margin-top: 80px;" class="container body-content">
+        <div class="jumbotron">
+            <h1 class="display-3">Mariano Antonio Montano</h1>
+            <p class="lead">Analista Programador .NET </p>
+            <hr class="my-2">
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="media">
+                    <div class="media-left media-middle">
+                        <img src="./Content/Perfil.jpg" height="250px" class="img-rounded">
+                    </div>
+                    <div class="media-body">
+                        <h1 class="media-heading">Perfil:</h1>
+                        <p>
+                            Desarrollador de aplicaciones web, escritorio y mobile en .Net Framework y .Net Core. 
+                        </p>
+                        <p>
+                            Tengo experiencia en desarrollo de background services
+                        </p>
+                        <p>    
+                            Amante de la tecnología y los lenguajes de programación. 
+                        </p>
+                        <p>
+                            Autodidacta en aprendizaje contínuo de nuevas tecnologías y habilidades. 
+                        </p>  
+                        <p>
+                            Soy muy alegre y me gusta siempre dejar lo mejor en lo que hago.
+                        </p>
                     </div>
                 </div>
-                <br>
-                <!-- DATOS DE CONTACTO -->
-                <div id="panelContacto" class="list-group">
-                    <div class="list-group-item"> 
-                        <div class="card" style="background-color: cadetblue">
-                            <div class="card-body">
-                                <p id="tituloContacto" class="h4">Datos de contacto</p>
-                            </div>
-                        </div>
-                        <br>
-                        <ul>
-                            <li>
-                                <h6>MARIANO ANTONIO MONTANO</h6>
+            </div>
+            <div class="col-md-6">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h4 class="text-center">
+                            Datos de contacto
+                        </h4>
+                    </div>
+                    <div class="panel-body">
+                        <ul class="nav">
+                            <li class="text-center">
+                                <span><i style="margin-left: 2px;" class="fas fa-mobile-alt"></i> <a href="tel:+5491162204305">+549 1162204305</a></span>
                             </li>
-                            <li>
-                                <span><i style="margin-left: 2px;" class="fas fa-mobile-alt"></i> +549 1162204305</span>
+                            <br>
+                            <li class="text-center">
+                                <span><i class="far fa-envelope"></i> <a href="mailto:montano.mariano@gmail.com">montano.mariano@gmail.com</a></span>
                             </li>
+                            <br>
                             <li>
-                                <span><i class="far fa-envelope"></i> montano.mariano@gmail.com</span>
+                                <a class="btn btn-sm btn-default" href="http://linkedin.com/in/mariano-montano/" target="_blank"><i class="fas fa-globe"></i> linkedin.com/in/mariano-montano</a>
                             </li>
+                            <br>
                             <li>
-                                <span><i class="fas fa-globe"></i></span> <a style="text-decoration: none;" href="http://linkedin.com/in/mariano-montano/" target="_blank">linkedin.com/in/mariano-montano</a>
-                            </li>
-                            <li>
-                                <span><i class="fas fa-globe"></i></span> <a style="text-decoration: none;" href="https://github.com/marianomontano/" target="_blank">github.com/marianomontano</a>
+                                <a class="btn btn-sm btn-default" href="https://github.com/marianomontano/" target="_blank"><i class="fas fa-globe"> </i> github.com/marianomontano</a>
                             </li>
                         </ul>
-                    </div> 
-                </div>
-                <br>
-                <!-- SKILLS -->
-                <div id="panelHabilidades" class="list-group">
-                    <div class="list-group-item" style="height: inherit;">
-                        <div class="card" style="background-color: cadetblue">
-                            <div class="card-body">
-                                <p id="tituloHabilidades" class="h4">Skills</p>
-                            </div>
-                        </div>
-                        <br>
-                        <!-- DATOS SKILLS -->
-                        <div id="datosHabilidades">
-                            <!-- LENGUAJES DE PROGRAMACIÓN -->
-                            <div>
-                                <table>
-                                    <tr>
-                                        <th>LENGUAJES DE PROGRAMACIÓN</th>
-                                    </tr>
-                                    <tr>
-                                        <td>C#</td>
-                                    </tr>
-                                    <tr>
-                                        <td>ASP .NET y .NET CORE MVC</td>
-                                    </tr>
-                                    <tr>
-                                        <td>SQL</td>
-                                    </tr>
-                                    <tr>
-                                        <td>HTML</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Javascript</td>
-                                    </tr>
-                                </table>
-                            </div>
-                            <br>
-                            <!-- HERRAMIENTAS DE PROGRAMACIÓN -->
-                            <div>
-                                <table>
-                                    <tr>
-                                        <th>HERRAMIENTAS DE PROGRAMACIÓN</th>
-                                    </tr>
-                                    <tr>
-                                        <td>Visual Studio 2017 y 2019</td>
-                                    </tr>
-                                    <tr>
-                                        <td>SQL Server Management Studio</td>
-                                    </tr>
-                                </table>
-                            </div>
-                            <br>
-                            <!-- ACCESO A DATOS -->
-                            <div>
-                                <table>
-                                    <tr>
-                                        <th>ACCESO A DATOS</th>
-                                    </tr>
-                                    <tr>
-                                        <td>SQL Server</td>
-                                    </tr>
-                                    <tr>
-                                        <td>ADO .NET</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Entity Framework</td>
-                                    </tr>
-                                </table>
-                            </div>
-                            <br>
-                            <!-- OTROS -->
-                            <div>
-                                <table>
-                                    <tr>
-                                        <th>OTROS</th>
-                                    </tr>
-                                    <tr>
-                                        <td>Patrones de diseño</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Principios SOLID</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Unit Testing y Mocking</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Sistema Operativo Windows</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Sistema Operativo Linux</td>
-                                    </tr>
-                                </table>
-                                <br>
-                            </div>
-                        </div>
-                    </div>  
-                </div>
-            </div>
-            <div class="col-md-8">
-                <!-- EXPERIENCIA LABORAL -->
-                <div id="panelExperiencia" class="list-group">
-                    <div class="list-group-item">
-                        <div class="card" style="background-color: cadetblue;">
-                            <div class="card-body">
-                                <p id="tituloExperiencia" class="h4">Experiencia</p>
-                            </div>
-                        </div>
-                        <!-- DATOS EXPERIENCIA LABORAL -->
-                        <div id="datosExperiencia">                            
-                            <div class="card">
-                                <div class="card-body">
-                                    <h5 class="cart-title">Accusys Technology</h6>
-                                    <h6 class="cart-subtitle mb-2 text-muted">Analista Programador .NET</h6>
-                                    <p class="card-text">
-                                        <strong>Enero 2021 - Actualidad</strong> 
-                                        <br>
-                                        <ul>
-                                            <li>Mantenimiento y desarrollo en aplicaciones mobile (Xamarin Forms con MVVM)</li>
-                                            <li>Desarrollo de variadas aplicaciones web con ASP .NET MVC y Web Forms</li>
-                                            <li>Desarrollo de aplicaciones de escritorio con C# y VB Net</li>
-                                            <li>Desarrollo de aplicaciones de consola y servicios de Windows con C# .NET y .NET Core</li>
-                                            <li>Manejo de complejas bases de datos y uso de Stored Procedures</li>
-                                        </ul>
-                                    </p>
-                                </div>
-                            </div>
-                            <div class="card">
-                                <div class="card-body">
-                                    <h5 class="cart-title">Garmin Argentina</h6>
-                                    <h6 class="cart-subtitle mb-2 text-muted">Representante de atención al público</h6>
-                                    <p class="card-text">
-                                        <strong>Noviembre 2017 - Enero 2021</strong> 
-                                        <br>
-                                        <ul>
-                                            <li>Ventas</li>
-                                            <li>Atención al público</li>
-                                            <li>Asesoramiento comercial</li>
-                                        </ul>
-                                    </p>
-                                </div>
-                            </div>
-                            <div class="card">
-                                <div class="card-body">
-                                    <h5 class="cart-title">Tati Golf / Adidas Golf Argentina</h6>
-                                    <h6 class="cart-subtitle mb-2 text-muted">Encargado de E-Commerce</h6>
-                                    <p class="card-text">
-                                        <strong>Enero 2013 - Abril 2017</strong> 
-                                        <br>
-                                        <ul>
-                                            <li>Manejo y mantenimiento de publicaciones en el sitio web</li>
-                                            <li>Manejo y mantenimiento de publicaciones en Tienda Oficial de Mercado Libre</li>
-                                            <li>Ventas</li>
-                                            <li>Atención al público</li>
-                                            <li>Asesoramiento comercial</li>
-                                            <li>Manejo de caja</li>
-                                        </ul>
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <br>
-                <!-- ESTUDIOS -->
-                <div id="panelEstudios" class="list-group">
-                    <div class="list-group-item">
-                        <div class="card" style="background-color: cadetblue;">
-                            <div class="card-body">
-                                <p id="tituloEstudios" class="h4">Estudios</p>
-                            </div>
-                        </div>
-                        <br>
-                        <!-- DATOS ESTUDIOS -->
-                        <table id="datosEstudios" class="table">
-                            <tr>
-                                <td>Julio 2021</td>
-                                <td>Desarrollo de APIs con .NET CORE</td>
-                                <td>Educación IT</td>
-                            </tr>
-                            <tr>
-                                <td>Marzo 2018 - Julio 2020</td>
-                                <td>Carrera Analista programador. Todos los finales aprobados. Pendiente defensa del proyecto final.</td>
-                                <td>Universidad Abierta Interamericana</td>
-                            </tr>
-                            <tr>
-                                <td>2019</td>
-                                <td>Curso de desarrollo web con ASP .NET MVC.</td>
-                                <td>Udemy</td>
-                            </tr>
-                            <tr>
-                                <td>2019</td>
-                                <td>Curso de manejo de base de datos SQL.</td>
-                                <td>Udemy</td>
-                            </tr>
-                            <tr>
-                                <td>2014</td>
-                                <td>Curso de inversión en mercado de capitales.</td>
-                                <td>Capacitarte UBA</td>
-                            </tr>
-                            <tr>
-                                <td>2007</td>
-                                <td>Curso de Microsoft Office Excel.</td>
-                                <td>Universidad Tecnológica Nacional</td>
-                            </tr>
-                            <tr>
-                                <td>2006</td>
-                                <td>Curso de Microsoft Office Word.</td>
-                                <td>Universidad Tecnológica Nacional</td>
-                            </tr>
-                        </table>
                     </div>
                 </div>
             </div>
+        </div>  
+        
+        <br />
+        <br />
+        <footer>
+            <p>&copy; 2021 - Página web desarrollada por Mariano Montano.</p>
+        </footer>
         </div>
     </div>
 </body>
