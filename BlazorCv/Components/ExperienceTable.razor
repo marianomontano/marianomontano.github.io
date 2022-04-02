@@ -1,0 +1,26 @@
+@foreach (var job in Experience)
+    {
+        var dateTo = job.DateTo == null ? "Actualidad" : Convert.ToDateTime(job.DateTo).ToString("Y");
+        <div class="card mb-1">
+            <div class="card-header text-white bg-secondary">
+                @job.Company
+            </div>
+            <div class="card-body">
+                <h6 class="mb-2 text-muted">
+                    @job.Title
+                </h6>
+                <p>@Convert.ToDateTime(job.DateFrom).ToString("Y") - @dateTo</p>
+                <ul>
+                    @foreach (var task in job.Tasks)
+                    {
+                        <li>@task</li>
+                    }
+                </ul>
+            </div>
+        </div>
+    }
+
+@code {
+    [Parameter] public List<ExperienceModel>? Experience { get; set; }
+
+}

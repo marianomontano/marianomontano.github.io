@@ -1,0 +1,32 @@
+@page "/experience"
+@using BlazorCv.Services
+@using System.Globalization
+@inject IStringLocalizer<InterfaceConstants> localizer
+@inject HttpClient httpClient
+
+<PageTitle>@localizer["experience"]</PageTitle>
+
+@if (experience is null)
+{
+    <p>loading...</p>
+}
+else if (experience.Count == 0)
+{
+    <p>@localizer["noData"]</p>
+}
+else
+{
+    <ExperienceTable Experience=@experience />
+}
+
+@code {
+    List<ExperienceModel>? experience;
+
+    protected override async Task OnInitializedAsync()
+    {
+        var lang = CultureInfo.CurrentCulture.TwoLetterISOLanguageName;
+        var data = await httpClient
+            .GetFromJsonAsync<List<ExperienceModel>>($"sample-data/experience-{lang}.json");
+        experience = data?.OrderByDescending(x => Convert.ToDateTime(x.DateFrom)).ToList();
+    }
+}

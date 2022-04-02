@@ -1,0 +1,53 @@
+@page "/studies"
+@using BlazorCv.Services
+@using System.Globalization
+@inject IStringLocalizer<InterfaceConstants> localizer
+@inject HttpClient httpClient
+
+<PageTitle>@localizer["studies"]</PageTitle>
+
+@if (studies is null)
+{
+    <p>loading...</p>
+}
+else if (studies.Count == 0)
+{
+    <p>No hay datos para mostrar</p>
+}
+else
+{
+    <div class="card">
+        <div class="card-header text-white bg-secondary">
+            @localizer["studies"]
+        </div>
+        <div class="card-body">
+            <table class="table">
+                @foreach (var study in studies)
+                {
+                    var dateFrom = Convert.ToDateTime(study.DateFrom).ToString("MMM yyyy");
+                    var dateTo = Convert.ToDateTime(study.DateTo).ToString("MMM yyyy");
+                    <tbody>
+                        <tr>
+                            <td>@dateFrom - @dateTo</td>
+                            <td>@study.Name</td>
+                            <td>@study.Institution</td>
+                        </tr>
+                    </tbody>
+                }
+            </table>
+        </div>
+    </div>
+}
+
+@code {
+    List<StudiesModel>? studies;
+
+    protected override async Task OnInitializedAsync()
+    {
+        var lang = CultureInfo.CurrentCulture.TwoLetterISOLanguageName;
+        var data = await httpClient
+            .GetFromJsonAsync<List<StudiesModel>>($"sample-data/studies-{lang}.json");
+        studies = data?.OrderByDescending(x => Convert.ToDateTime(x?.DateTo)).ToList();
+    }
+
+}

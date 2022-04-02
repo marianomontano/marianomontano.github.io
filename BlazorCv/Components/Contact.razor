@@ -1,0 +1,42 @@
+@using System.Reflection
+@using BlazorCv.Services
+@inject IStringLocalizer<InterfaceConstants> localizer
+
+<div class="card">
+    <div class="card-header text-white bg-secondary">
+        @localizer["contact"]
+    </div>
+    <div class="card-body">
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link" href="tel:@Phone?.Replace(" ", String.Empty)">
+                    <i class="oi oi-phone mx-1"> </i>@Phone
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="mailto:@EmailAddress">
+                    <i class="oi oi-envelope-closed mx-1"> </i>@EmailAddress
+                </a>
+            </li>
+            <li class="nav-item">
+                <LinkedInBadge />
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" target="_blank" rel="noreferrer noopener" href=@GithubLink>
+                    <i class="fab fa-github mx-1" aria-hidden="true"> </i>@GithubLink
+                </a>
+            </li>
+        </ul>
+    </div>
+</div>
+
+@code {
+    [Parameter]
+    public string? Phone { get; set; }
+    
+    [Parameter]
+    public string? EmailAddress { get; set; }
+    
+    [Parameter]
+    public string? GithubLink { get; set; }
+}

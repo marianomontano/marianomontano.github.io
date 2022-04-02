@@ -1,0 +1,44 @@
+<root>
+    <resheader name="resmimetype">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="version">
+        <value>1.3</value>
+    </resheader>
+    <resheader name="reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <resheader name="writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <data name="contact" xml:space="preserve">
+        <value>Contacto</value>
+    </data>
+    <data name="experience" xml:space="preserve">
+        <value>Experiencia</value>
+    </data>
+    <data name="profile" xml:space="preserve">
+        <value>Perfil</value>
+    </data>
+    <data name="skills" xml:space="preserve">
+        <value>Habilidades</value>
+    </data>
+    <data name="studies" xml:space="preserve">
+        <value>Estudios</value>
+    </data>
+    <data name="programmingLanguages" xml:space="preserve">
+        <value>Lenguajes de Programación</value>
+    </data>
+    <data name="programmingTools" xml:space="preserve">
+        <value>Herramientas de Programación</value>
+    </data>
+    <data name="dataAccess" xml:space="preserve">
+        <value>Acceso a Datos</value>
+    </data>
+    <data name="other" xml:space="preserve">
+        <value>Otros</value>
+    </data>
+    <data name="noData" xml:space="preserve">
+        <value>No hay datos para mostrar</value>
+    </data>
+</root>

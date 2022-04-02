@@ -1,0 +1,56 @@
+[
+  {
+    "name": "Web development with ReactJs",
+    "dateFrom": "2022-01-01",
+    "dateTo": "2022-01-31",
+    "institution": "Udemy"
+  },
+  {
+    "name": "Mobile development with Xamarin Forms",
+    "dateFrom": "2021-08-01",
+    "dateTo": "2021-11-30",
+    "institution": "Investigación propia"
+  },
+  {
+    "name": "Web API development with .NET Core.",
+    "dateFrom": "2021-07-01",
+    "dateTo": "2021-07-01",
+    "institution": "Educación IT"
+  },
+  {
+    "name": "Programmer Analyst technical degree. All finals approved. Thesis pending.",
+    "dateFrom": "2018-03-01",
+    "dateTo": "2020-07-31",
+    "institution": "Universidad Abierta Interamericana"
+  },
+  {
+    "name": "Web development with ASP .NET Framework.",
+    "dateFrom": "2019-03-01",
+    "dateTo": "2019-03-31",
+    "institution": "Udemy"
+  },
+  {
+    "name": "MS SQL Server database management.",
+    "dateFrom": "2019-02-01",
+    "dateTo": "2019-02-28",
+    "institution": "Udemy"
+  },
+  {
+    "name": "Personal finance and stock market investment.",
+    "dateFrom": "2014-07-01",
+    "dateTo": "2014-11-30",
+    "institution": "Capacitarte UBA"
+  },
+  {
+    "name": "Microsoft Office - Excel fundamentals course.",
+    "dateFrom": "2007-03-01",
+    "dateTo": "2017-11-30",
+    "institution": "Universidad Tecnológica Nacional"
+  },
+  {
+    "name": "Microsoft Office - Word fundamentals course.",
+    "dateFrom": "2006-03-01",
+    "dateTo": "2016-11-30",
+    "institution": "Universidad Tecnológica Nacional"
+  }
+]

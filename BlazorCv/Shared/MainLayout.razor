@@ -1,0 +1,34 @@
+@using System.Globalization
+@inherits LayoutComponentBase
+@inject IJSRuntime jsRuntime
+
+<div class="page">
+    <div class="sidebar">
+        <NavMenu/>
+    </div>
+
+    <main>
+        <article class="content px-4">
+            @Body
+        </article>
+    </main>
+</div>
+
+@code{
+    private string? culture;
+
+    protected override void OnInitialized()
+    {
+        culture = CultureInfo.CurrentCulture.TwoLetterISOLanguageName;
+    }
+
+    private void ChangeLanguage()
+    {
+        CultureInfo.CurrentCulture = CultureInfo.CurrentCulture.TwoLetterISOLanguageName == "es"
+            ? new CultureInfo("en-US")
+            : new CultureInfo("es-ES");
+
+        StateHasChanged();
+    }
+
+}

@@ -1,0 +1,29 @@
+@page "/Skills"
+@using BlazorCv.Services
+@using System.Globalization
+@inject IStringLocalizer<InterfaceConstants> localizer
+@inject HttpClient httpClient
+
+<PageTitle>@localizer["skills"]</PageTitle>
+
+@if (skills is null)
+{
+    <p>loading...</p>
+}
+else
+{
+    <SkillCard Title=@localizer["programmingLanguages"] Skills=@skills.ProgrammingLanguages />
+    <SkillCard Title=@localizer["programmingTools"] Skills=@skills.ProgrammingTools />
+    <SkillCard Title=@localizer["dataAccess"] Skills=@skills.DataAccess />
+    <SkillCard Title=@localizer["other"] Skills=@skills.Other />
+}
+
+@code {
+    private SkillsModel? skills;
+
+    protected override async Task OnInitializedAsync()
+    {
+        var lang = CultureInfo.CurrentCulture.TwoLetterISOLanguageName;
+        skills = await httpClient.GetFromJsonAsync<SkillsModel>($"sample-data/skills-{lang}.json");
+    }
+}

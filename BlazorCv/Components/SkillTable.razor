@@ -1,0 +1,17 @@
+<table class="table">
+    <tbody>
+        @foreach (var item in Items)
+        {
+            <tr>
+                <td>@item</td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+@code {
+
+    [Parameter]
+    public List<string> Items { get; set; } = new List<string>();
+
+}

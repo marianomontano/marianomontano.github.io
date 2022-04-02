@@ -1,0 +1,79 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = browser
+build_property.EnableSingleFileAnalyzer = 
+build_property.EnableTrimAnalyzer = true
+build_property.IncludeAllContentForSelfExtract = 
+build_property.RootNamespace = BlazorCv
+build_property.RootNamespace = BlazorCv
+build_property.ProjectDir = /home/mariano/RiderProjects/BlazorCv/BlazorCv/
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = /home/mariano/RiderProjects/BlazorCv/BlazorCv
+build_property._RazorSourceGeneratorDebug = 
+
+[/home/mariano/RiderProjects/BlazorCv/BlazorCv/App.razor]
+build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/mariano/RiderProjects/BlazorCv/BlazorCv/Components/Contact.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9Db250YWN0LnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/mariano/RiderProjects/BlazorCv/BlazorCv/Components/ExperienceTable.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9FeHBlcmllbmNlVGFibGUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/mariano/RiderProjects/BlazorCv/BlazorCv/Components/LinkedInBadge.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9MaW5rZWRJbkJhZGdlLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/mariano/RiderProjects/BlazorCv/BlazorCv/Components/ProfileDescription.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9Qcm9maWxlRGVzY3JpcHRpb24ucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/mariano/RiderProjects/BlazorCv/BlazorCv/Components/SkillCard.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9Ta2lsbENhcmQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/mariano/RiderProjects/BlazorCv/BlazorCv/Components/SkillTable.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9Ta2lsbFRhYmxlLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/mariano/RiderProjects/BlazorCv/BlazorCv/Pages/Experience.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRXhwZXJpZW5jZS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/mariano/RiderProjects/BlazorCv/BlazorCv/Pages/Profile.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvUHJvZmlsZS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/mariano/RiderProjects/BlazorCv/BlazorCv/Pages/Skills.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvU2tpbGxzLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/mariano/RiderProjects/BlazorCv/BlazorCv/Pages/Studies.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvU3R1ZGllcy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/mariano/RiderProjects/BlazorCv/BlazorCv/_Imports.razor]
+build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/mariano/RiderProjects/BlazorCv/BlazorCv/Components/Jumbotron.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9KdW1ib3Ryb24ucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-py1e5l53kq
+
+[/home/mariano/RiderProjects/BlazorCv/BlazorCv/Shared/MainLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkL01haW5MYXlvdXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-qre13ytzu0
+
+[/home/mariano/RiderProjects/BlazorCv/BlazorCv/Shared/NavMenu.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkL05hdk1lbnUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-r6knt8zlej

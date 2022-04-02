@@ -1,0 +1,30 @@
+@using BlazorCv.Services
+@inject IStringLocalizer<InterfaceConstants> localizer
+
+@if (Skills is null)
+{
+    <p>loading...</p>
+}
+else if (Skills.Count == 0)
+{
+    <p>@localizer["noData"]</p>
+}
+else
+{
+    <div class="card mb-2">
+        <div class="card-header text-white bg-secondary">
+            @Title
+        </div>
+        <div class="card-body">
+            <SkillTable Items=@Skills />
+        </div>
+    </div>
+}
+
+@code {
+    [Parameter]
+    public List<string>? Skills { get; set; }
+    
+    [Parameter]
+    public string? Title { get; set; }
+}

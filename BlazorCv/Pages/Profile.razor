@@ -1,0 +1,37 @@
+@page "/"
+@page "/Profile"
+@using BlazorCv.Services
+@using System.Globalization
+@inject IStringLocalizer<InterfaceConstants> localizer
+@inject HttpClient httpClient
+
+<PageTitle>@localizer["profile"]</PageTitle>
+
+@if (profile is null)
+{
+    <p>loading...</p>
+}
+else
+{
+    <Jumbotron Title=@profile.Name Description=@profile.Title />
+    <div class="row">
+        <div class="col-lg-8">
+            <ProfileDescription Description=@profile.Profile />
+        </div>
+        <div class="col-lg-4">
+            <Contact Phone=@profile.Phone EmailAddress=@profile.EmailAddress GithubLink=@profile.GithubLink />
+        </div>
+    </div>
+    
+}
+
+@code {
+    ProfileModel? profile;
+    
+    protected override async Task OnInitializedAsync()
+    {
+        var lang = CultureInfo.CurrentCulture.TwoLetterISOLanguageName;
+        profile = await httpClient.GetFromJsonAsync<ProfileModel>($"sample-data/profile-{lang}.json");
+    }
+
+}

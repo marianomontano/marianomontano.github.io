@@ -1,0 +1,31 @@
+<Project Sdk="Microsoft.NET.Sdk.BlazorWebAssembly">
+
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+        <Nullable>enable</Nullable>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <BlazorWebAssemblyLoadAllGlobalizationData>true</BlazorWebAssemblyLoadAllGlobalizationData>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly" Version="6.0.3" />
+        <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.DevServer" Version="6.0.3" PrivateAssets="all" />
+        <PackageReference Include="Microsoft.Extensions.Localization" Version="6.0.3" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <EmbeddedResource Update="Services\InterfaceConstants.resx">
+        <Generator>ResXFileCodeGenerator</Generator>
+        <LastGenOutput>InterfaceConstants.Designer.cs</LastGenOutput>
+      </EmbeddedResource>
+    </ItemGroup>
+
+    <ItemGroup>
+      <Compile Update="Services\InterfaceConstants.Designer.cs">
+        <DesignTime>True</DesignTime>
+        <AutoGen>True</AutoGen>
+        <DependentUpon>InterfaceConstants.resx</DependentUpon>
+      </Compile>
+    </ItemGroup>
+
+</Project>
