@@ -1,0 +1,14 @@
+{
+  "programmingLanguages": [
+    "C#", "SQL", "Javascript", "ASP .NET y ASP .NET Core", "HTML", "Razor pages"
+  ],
+  "programmingTools": [
+    "Visual Studio, VSCode, Rider", "SQl Server Management Studio", "Xamarin Forms", "Android Emulator", "React JS", "Blazor"
+  ],
+  "dataAccess": [
+    "SQL Server", "ADO .NET", "Entity Framework", "Rest APIs"
+  ],
+  "other": [
+    "Design Patterns", "SOLID Principles", "Unit and Integration Testing + Mocking", "GIT - Version Control", "Windows OS Management", "Linux OS Management"
+  ]
+}

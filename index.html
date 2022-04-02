@@ -1,100 +1,32 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./Content/bootstrap.css">
-    <link rel="stylesheet" href="./Content/bootstrap-theme.css">
-    <link rel="stylesheet" href="./Content/Site.css">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title>Mariano Montano</title>
+    <base href="/" />
+    <link href="css/bootstrap/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/app.css" rel="stylesheet" />
+    <link href="BlazorCv.styles.css" rel="stylesheet" />
     <script src="https://kit.fontawesome.com/6bb585d391.js" crossorigin="anonymous"></script>
-    <script src="./Scripts/jquery-3.3.1.js"></script>
-    <script src="./Scripts/bootstrap.js"></script>
     <script src="https://platform.linkedin.com/badges/js/profile.js" async defer type="text/javascript"></script>
-    <title>Perfil - Mariano Montano</title>
 </head>
-<body style="background-color:lightgray">
-    <div class="navbar navbar-inverse navbar-fixed-top">
-        <div class="container">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand" href="./English/index-en.html">en</a> | <a href="./index.html" class="navbar-brand">Perfil</a>
-            </div>
-            <div class="navbar-collapse collapse">
-                <ul class="nav navbar-nav">
-                    <li><a href="./Spanish/Estudios.html">Estudios</a></li>
-                    <li><a href="./Spanish/Experiencia.html">Experiencia Laboral</a></li>
-                    <li><a href="./Spanish/Habilidades.html">Habilidades</a></li>
-                </ul>
-            </div>
-        </div>
+
+<body>
+    <div id="app">Loading...</div>
+
+    <div id="blazor-error-ui">
+        An unhandled error has occurred.
+        <a href="" class="reload">Reload</a>
+        <a class="dismiss">🗙</a>
     </div>
-    <div style="margin-top: 80px;" class="container body-content">
-        <div class="jumbotron">
-            <h1 class="display-3">Mariano Antonio Montano</h1>
-            <p class="lead">Analista Programador .NET - Fullstack developer</p>
-            <hr class="my-2">
-        </div>
-        <div class="row">
-            <div class="col-md-8">
-                <div class="panel panel-default">
-                    <div class="panel-heading">
-                        <h4 class="text-center">Perfil</h4>
-                    </div>
-                    <div class="panel-body">
-                        <div class="row">
-                            <div class="col-lg-4">
-                                <img src="./Content/Perfil.jpg" height="250px" class="img-rounded">
-                            </div>
-                            <div class="col-lg-8">
-                                <p>Desde joven me interesó la programación y el desarrollo de software. A lo largo del tiempo fui conociendo distintos lenguajes de programación como Python y Ruby, pero luego de la facultad me concentré en perfeccionarme el ecosistema de Microsoft utilizando C# y ASP .NET, principalmente con el patrón MVC.</p>
-                                <p>En mi tiempo libre me gusta estudiar idiomas y leer e investigar acerca de tecnologías y lenguajes de programación, diseño y arquitectura de desarrollo de software.</p>
-                                <p>Tengo la capacidad de aprender cualquier cosa en muy corto tiempo. Soy muy puntual. Me gusta trabajar en equipo pero no tengo problema para trabajar sólo y desempeñar varias tareas al mismo tiempo.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div><i class="fas fa-signal-3    "></i>
-            </div>
-            <div class="col-md-4">
-                <div class="panel panel-default">
-                    <div class="panel-heading">
-                        <h4 class="text-center">
-                            Datos de contacto
-                        </h4>
-                    </div>
-                    <div class="panel-body">
-                        <ul class="nav">
-                            <li>
-                                <span><i style="margin-left: 2px;" class="fas fa-mobile-alt"></i> <a href="tel:+5491162204305">+549 1162204305</a></span>
-                            </li>
-                            <br>
-                            <li>
-                                <span><i class="far fa-envelope"></i> <a href="mailto:montano.mariano@gmail.com">montano.mariano@gmail.com</a></span>
-                            </li>
-                            <br>
-                            <li>
-                                <div class="badge-base LI-profile-badge" data-locale="es_ES" data-size="medium" data-theme="light" data-type="VERTICAL" data-vanity="mariano-montano" data-version="v1"><a class="badge-base__link LI-simple-link" target="_blank" href="https://ar.linkedin.com/in/mariano-montano?trk=profile-badge"></a></div>
-                            </li>
-                            <br>
-                            <li>
-                                <a href="https://github.com/marianomontano/" target="_blank"><i class="fab fa-github"> </i> github.com/marianomontano</a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>  
-        
-        <br />
-        <a href="https://wa.me/5491162204305" class="whatsapp" target="_blank"> <i class="fa fa-whatsapp whatsapp-icon"></i></a>
-        <footer>
-            <p>&copy; 2021 - Página web desarrollada por Mariano Montano.</p>
-        </footer>
-        </div>
-    </div>
+    <script src="_framework/blazor.webassembly.js"></script>
 </body>
+<script>
+    window.blazorCulture = {
+        get: () => window.localStorage['BlazorCulture'],
+        set: (value) => window.localStorage['BlazorCulture'] = value
+    };
+</script>
 </html>
