@@ -831,3 +831,4 @@
 /home/mariano/RiderProjects/BlazorCv/BlazorCv/obj/Release/net6.0/refint/BlazorCv.dll
 /home/mariano/RiderProjects/BlazorCv/BlazorCv/obj/Release/net6.0/BlazorCv.pdb
 /home/mariano/RiderProjects/BlazorCv/BlazorCv/obj/Release/net6.0/ref/BlazorCv.dll
+/home/mariano/RiderProjects/BlazorCv/BlazorCv/obj/Release/net6.0/scopedcss/Pages/Studies.razor.rz.scp.css

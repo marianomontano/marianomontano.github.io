@@ -41,4 +41,7 @@
     <data name="noData" xml:space="preserve">
         <value>No hay datos para mostrar</value>
     </data>
+    <data name="loading" xml:space="preserve">
+        <value>Cargando...</value>
+    </data>
 </root>

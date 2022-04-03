@@ -1,6 +1,4 @@
 @page "/studies"
-@using BlazorCv.Services
-@using System.Globalization
 @inject IStringLocalizer<InterfaceConstants> localizer
 @inject HttpClient httpClient
 
@@ -8,11 +6,11 @@
 
 @if (studies is null)
 {
-    <p>loading...</p>
+    <p>@localizer["loading"]</p>
 }
 else if (studies.Count == 0)
 {
-    <p>No hay datos para mostrar</p>
+    <p>@localizer["noData"]</p>
 }
 else
 {

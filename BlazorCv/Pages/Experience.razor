@@ -1,6 +1,4 @@
 @page "/experience"
-@using BlazorCv.Services
-@using System.Globalization
 @inject IStringLocalizer<InterfaceConstants> localizer
 @inject HttpClient httpClient
 
@@ -8,7 +6,7 @@
 
 @if (experience is null)
 {
-    <p>loading...</p>
+    <p>@localizer["loading"]</p>
 }
 else if (experience.Count == 0)
 {

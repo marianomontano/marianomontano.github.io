@@ -104,5 +104,11 @@ namespace BlazorCv.Services {
                 return ResourceManager.GetString("noData", resourceCulture);
             }
         }
+        
+        internal static string loading {
+            get {
+                return ResourceManager.GetString("loading", resourceCulture);
+            }
+        }
     }
 }
