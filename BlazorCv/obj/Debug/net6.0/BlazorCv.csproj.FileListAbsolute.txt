@@ -831,3 +831,4 @@
 /home/mariano/RiderProjects/BlazorCv/BlazorCv/obj/Debug/net6.0/es/BlazorCv.resources.cs
 /home/mariano/RiderProjects/BlazorCv/BlazorCv/obj/Debug/net6.0/es/BlazorCv.resources.dll
 /home/mariano/RiderProjects/BlazorCv/BlazorCv/obj/Debug/net6.0/build-gz/IzoeFT76.gz
+/home/mariano/RiderProjects/BlazorCv/BlazorCv/obj/Debug/net6.0/scopedcss/Pages/Studies.razor.rz.scp.css

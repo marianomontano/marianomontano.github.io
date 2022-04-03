@@ -46,20 +46,8 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9Ta2lsbFRhYmxlLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/mariano/RiderProjects/BlazorCv/BlazorCv/Pages/Counter.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ291bnRlci5yYXpvcg==
-build_metadata.AdditionalFiles.CssScope = 
-
 [/home/mariano/RiderProjects/BlazorCv/BlazorCv/Pages/Experience.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRXhwZXJpZW5jZS5yYXpvcg==
-build_metadata.AdditionalFiles.CssScope = 
-
-[/home/mariano/RiderProjects/BlazorCv/BlazorCv/Pages/FetchData.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRmV0Y2hEYXRhLnJhem9y
-build_metadata.AdditionalFiles.CssScope = 
-
-[/home/mariano/RiderProjects/BlazorCv/BlazorCv/Pages/Index.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvSW5kZXgucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
 [/home/mariano/RiderProjects/BlazorCv/BlazorCv/Pages/Profile.razor]
@@ -70,14 +58,6 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvU2tpbGxzLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/mariano/RiderProjects/BlazorCv/BlazorCv/Pages/Studies.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvU3R1ZGllcy5yYXpvcg==
-build_metadata.AdditionalFiles.CssScope = 
-
-[/home/mariano/RiderProjects/BlazorCv/BlazorCv/Shared/SurveyPrompt.razor]
-build_metadata.AdditionalFiles.TargetPath = U2hhcmVkL1N1cnZleVByb21wdC5yYXpvcg==
-build_metadata.AdditionalFiles.CssScope = 
-
 [/home/mariano/RiderProjects/BlazorCv/BlazorCv/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
@@ -85,6 +65,10 @@ build_metadata.AdditionalFiles.CssScope =
 [/home/mariano/RiderProjects/BlazorCv/BlazorCv/Components/Jumbotron.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9KdW1ib3Ryb24ucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-py1e5l53kq
+
+[/home/mariano/RiderProjects/BlazorCv/BlazorCv/Pages/Studies.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvU3R1ZGllcy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = b-siotj6c6xl
 
 [/home/mariano/RiderProjects/BlazorCv/BlazorCv/Shared/MainLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkL01haW5MYXlvdXQucmF6b3I=

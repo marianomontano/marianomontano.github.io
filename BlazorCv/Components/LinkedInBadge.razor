@@ -1,5 +1,19 @@
-<div class="badge-baseov LI-profile-badge" data-locale="en_US" data-size="medium" data-theme="light" data-type="VERTICAL" data-vanity="mariano-montano" data-version="v1"><a class="badge-base__link LI-simple-link" href="https://ar.linkedin.com/in/mariano-montano/en?trk=profile-badge">Mariano Montano</a></div>
+@using System.Globalization
+
+<div class="badge-base LI-profile-badge" 
+     data-locale=@culture 
+     data-size="medium" 
+     data-theme="light" 
+     data-type="VERTICAL" 
+     data-vanity="mariano-montano" 
+     data-version="v1">
+    <a class="nav-link badge-base__link LI-simple-link"
+       href=@($"https://ar.linkedin.com/in/mariano-montano/{language}?trk=profile-badge")>
+        <i class="fab fa-linkedin-in mx-1"></i> Mariano Montano
+    </a>
+</div>
 
 @code {
-    
+    private string culture = CultureInfo.CurrentCulture.Name.Replace('-', '_');
+    private string language = CultureInfo.CurrentCulture.TwoLetterISOLanguageName;
 }

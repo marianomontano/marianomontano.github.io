@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Omaejt2wETinkYSxy2MRe01BRRW1Gfc4v6ck3lxxf2s=",
+  "Hash": "quzsTEnn7xK4jJyLAx68X0rfc7haboPrZhOZ7ohbjFk=",
   "Source": "BlazorCv",
   "BasePath": "/",
   "Mode": "Root",
@@ -6936,6 +6936,40 @@
       "OriginalItemSpec": "/home/mariano/RiderProjects/BlazorCv/BlazorCv/obj/Debug/net6.0/scopedcss/projectbundle/BlazorCv.bundle.scp.css"
     },
     {
+      "Identity": "/home/mariano/RiderProjects/BlazorCv/BlazorCv/wwwroot/.gitattributes",
+      "SourceId": "BlazorCv",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/mariano/RiderProjects/BlazorCv/BlazorCv/wwwroot/",
+      "BasePath": "/",
+      "RelativePath": ".gitattributes",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/.gitattributes"
+    },
+    {
+      "Identity": "/home/mariano/RiderProjects/BlazorCv/BlazorCv/wwwroot/.nojekyll",
+      "SourceId": "BlazorCv",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/mariano/RiderProjects/BlazorCv/BlazorCv/wwwroot/",
+      "BasePath": "/",
+      "RelativePath": ".nojekyll",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/.nojekyll"
+    },
+    {
       "Identity": "/home/mariano/RiderProjects/BlazorCv/BlazorCv/wwwroot/css/app.css",
       "SourceId": "BlazorCv",
       "SourceType": "Discovered",
@@ -7140,40 +7174,6 @@
       "OriginalItemSpec": "wwwroot/css/open-iconic/README.md"
     },
     {
-      "Identity": "/home/mariano/RiderProjects/BlazorCv/BlazorCv/wwwroot/favicon.ico",
-      "SourceId": "BlazorCv",
-      "SourceType": "Discovered",
-      "ContentRoot": "/home/mariano/RiderProjects/BlazorCv/BlazorCv/wwwroot/",
-      "BasePath": "/",
-      "RelativePath": "favicon.ico",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/favicon.ico"
-    },
-    {
-      "Identity": "/home/mariano/RiderProjects/BlazorCv/BlazorCv/wwwroot/icon-192.png",
-      "SourceId": "BlazorCv",
-      "SourceType": "Discovered",
-      "ContentRoot": "/home/mariano/RiderProjects/BlazorCv/BlazorCv/wwwroot/",
-      "BasePath": "/",
-      "RelativePath": "icon-192.png",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/icon-192.png"
-    },
-    {
       "Identity": "/home/mariano/RiderProjects/BlazorCv/BlazorCv/wwwroot/images/profile.jpg",
       "SourceId": "BlazorCv",
       "SourceType": "Discovered",
@@ -7342,23 +7342,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/sample-data/studies-es.json"
-    },
-    {
-      "Identity": "/home/mariano/RiderProjects/BlazorCv/BlazorCv/wwwroot/sample-data/weather.json",
-      "SourceId": "BlazorCv",
-      "SourceType": "Discovered",
-      "ContentRoot": "/home/mariano/RiderProjects/BlazorCv/BlazorCv/wwwroot/",
-      "BasePath": "/",
-      "RelativePath": "sample-data/weather.json",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/sample-data/weather.json"
     }
   ]
 }

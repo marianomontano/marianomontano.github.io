@@ -5,6 +5,16 @@
     border-radius: 6px;
     padding: 0 30px;
 }
+/* /Pages/Studies.razor.rz.scp.css */
+.table[b-siotj6c6xl]{
+    font-size: 1rem;
+}
+
+@media screen and (max-width: 460px) {
+    .table[b-siotj6c6xl]{
+        font-size: 0.80rem;
+    }
+}
 /* /Shared/MainLayout.razor.rz.scp.css */
 .page[b-qre13ytzu0] {
     position: relative;
