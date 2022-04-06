@@ -1,1 +1,0 @@
-/home/mariano/RiderProjects/BlazorCv/BlazorCv/bin/Release/net6.0/publish/web.config
