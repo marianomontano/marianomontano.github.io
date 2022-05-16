@@ -1,9 +1,17 @@
 [
   {
+    "company": "DataArt",
+    "title": "SR .NET Fullstack developer",
+    "dateFrom": "2022-01-25",
+    "dateTo": null,
+    "tasks": [
+    ]
+  },
+  {
     "company": "Cognizant SoftVision",
     "title": "Mid level .NET Fullstack developer",
     "dateFrom": "2022-01-25",
-    "dateTo": null,
+    "dateTo": "2022-05-13",
     "tasks": [
       "Maintenance and development of improvements and new features in the frontend using ReactJS.",
       "Maintenance and development of improvements and new features in the backend (REST API) using C# y .NET Core.",
