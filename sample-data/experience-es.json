@@ -1,9 +1,17 @@
 [
   {
+    "company": "DataArt",
+    "title": "Desarrollador .NET Fullstack SR",
+    "dateFrom": "2022-05-16",
+    "dateTo": null,
+    "tasks": [
+    ]
+  },
+  {
     "company": "Cognizant SoftVision",
     "title": "Desarrollador .NET Fullstack SSR",
     "dateFrom": "2022-01-25",
-    "dateTo": null,
+    "dateTo": "2022-05-13",
     "tasks": [
       "Desarrollo de mantenimiento, mejoras y nuevas funcionalidades en el frontend con ReactJS.",
       "Desarrollo de mantenimiento, mejoras y nuevas funcionalidades en el backend (API REST) con C# y .NET Core.",
