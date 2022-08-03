@@ -1,21 +1,28 @@
 [
   {
-    "company": "DataArt",
-    "title": "Desarrollador .NET Fullstack SR",
+    "company": "DataArt (Cliente sector financiero en NY)",
+    "title": "Desarrollador .NET Fullstack SR en equipo distribuido globalmente",
     "dateFrom": "2022-05-16",
     "dateTo": null,
     "tasks": [
+      "Mantenimiento y desarrollo de mejoras en Windows Services y WCF Services",
+      "Mantenimiento y desarrollo de mejoras en Applicación WPF",
+      "Deploy de servicios en los diferentes ambientes de desarrollo",
+      "Mantener comunicación con el cliente",
+      "Uso de Jira Software para administración de tareas y tickets"
     ]
   },
   {
     "company": "Cognizant SoftVision",
-    "title": "Desarrollador .NET Fullstack SSR",
+    "title": "Desarrollador .NET Fullstack SSR en equipo distribuido globalmente",
     "dateFrom": "2022-01-25",
     "dateTo": "2022-05-13",
     "tasks": [
       "Desarrollo de mantenimiento, mejoras y nuevas funcionalidades en el frontend con ReactJS.",
       "Desarrollo de mantenimiento, mejoras y nuevas funcionalidades en el backend (API REST) con C# y .NET Core.",
-      "Pruebas unitarias y de integración utilizando BDD y TDD."
+      "Pruebas unitarias y de integración utilizando BDD y TDD.",
+      "Mantenimiento y adición de documentación del código y del sistema",
+      "Uso de Azure devops para administración de tareas y tickets"
     ]
   },
   {
@@ -29,7 +36,8 @@
       "Desarrollo de aplicMantenimiento y mejoras a aplicación web desarrollada con Web Forms. Front End desarrollado en hojas xsl, funcionalidad en Javascript y acceso a datos con ADO .NET.",
       "Desarrollo de software de escritorio en C# y VB .NET. Front End desarrollado con Windows Forms y acceso a datos con ADO .NET consumiendo Stored Procedures.",
       "Desarrollo de aplicaciones de consola y servicios de Windows con C# .NET y .NET Core.",
-      "Manejo de complejas bases de datos y uso de Stored Procedures."
+      "Manejo de complejas bases de datos y uso de Stored Procedures.",
+      "Uso de Azure devops para administración de tareas y tickets"
     ]
   },
   {
