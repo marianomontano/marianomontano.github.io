@@ -5,11 +5,14 @@
     "dateFrom": "2022-05-16",
     "dateTo": null,
     "tasks": [
+      "Ownership of Rest API project",
+      "Development of new WCF services ",
+      "Development of new background service integrating third party API",
       "Maintenance and development of improvements in Windows Services and WCF Services",
       "Maintenance and development of improvements in WPF Application",
       "Deployment to different environments",
       "Maintaining communication with the client",
-      "Use of Jira Software to administer tasks and tickets"
+      "Use of Jira Software to manage tasks and tickets"
     ]
   },
   {

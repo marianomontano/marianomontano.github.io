@@ -5,6 +5,9 @@
     "dateFrom": "2022-05-16",
     "dateTo": null,
     "tasks": [
+      "Referente principal de proyecto Rest API.",
+      "Desarrollo de nuevos servicios WCF",
+      "Desarrollo de nuevo servicio en segundo plano integrando un servicio API externo",
       "Mantenimiento y desarrollo de mejoras en Windows Services y WCF Services",
       "Mantenimiento y desarrollo de mejoras en Applicación WPF",
       "Deploy de servicios en los diferentes ambientes de desarrollo",
