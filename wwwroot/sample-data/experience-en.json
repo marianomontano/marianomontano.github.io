@@ -1,0 +1,71 @@
+[
+  {
+    "company": "DataArt (Financial Client NY)",
+    "title": "SR .NET Fullstack developer in distributed team",
+    "dateFrom": "2022-05-16",
+    "dateTo": null,
+    "tasks": [
+      "Ownership of Rest API project",
+      "Development of new WCF services ",
+      "Development of new background service integrating third party API",
+      "Maintenance and development of improvements in Windows Services and WCF Services",
+      "Maintenance and development of improvements in WPF Application",
+      "Deployment to different environments",
+      "Maintaining communication with the client",
+      "Use of Jira Software to manage tasks and tickets"
+    ]
+  },
+  {
+    "company": "Cognizant SoftVision",
+    "title": "Mid level .NET Fullstack developer in distributed team",
+    "dateFrom": "2022-01-25",
+    "dateTo": "2022-05-13",
+    "tasks": [
+      "Maintenance and development of improvements and new features in the frontend using ReactJS.",
+      "Maintenance and development of improvements and new features in the backend (REST API) using C# y .NET Core.",
+      "Unit and integration testing using BDD y TDD methodologies.",
+      "Maintenance and addition of code and system documentation",
+      "Use of Azure devops to administer tasks and tickets"
+    ]
+  },
+  {
+    "company": "Accusys Technology",
+    "title": "Programmer Analyst .NET",
+    "dateFrom": "2021-01-01",
+    "dateTo": "2022-01-24",
+    "tasks": [
+      "Maintenance and addition of new features to a mobile application (Xamarin Forms with MVVM).",
+      "Improvement and development of new features on a 3 service application. Backend service, application and Web application in ASP .NET MVC. Front end in razor pages and data access with Entity Framework.",
+      "Maintenance and new features to Web application in Web Forms. Front end in xsl stylesheets functionality in Javascript and Jquery, and data access through ADO .NET.",
+      "Maintenance and development of new features to Desktop application in C# and VB .NET. Front end in Windows Forms and data access through ADO .NET.",
+      "Development of Windows services and Console applications using C# .NET and .NET Core.",
+      "Using complex relational databases and Stored Procedures.",
+      "Use of Azure devops to administer tasks and tickets"
+    ]
+  },
+  {
+    "company": "Garmin Argentina",
+    "title": "Customer Assistance",
+    "dateFrom": "2017-11-24",
+    "dateTo": "2021-01-01",
+    "tasks": [
+      "Sales.",
+      "Customer service.",
+      "Product advicing according customers needs."
+    ]
+  },
+  {
+    "company": "Tati Golf / Adidas Golf Argentina",
+    "title": "E-Commerce Manager",
+    "dateFrom": "2013-01-01",
+    "dateTo": "2017-04-30",
+    "tasks": [
+      "Web store management.",
+      "Mercado Libre official store management.",
+      "Sales.",
+      "Customer service.",
+      "Product advicing according customers needs.",
+      "Cashiering."
+    ]
+  }
+]
