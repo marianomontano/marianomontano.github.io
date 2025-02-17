@@ -1,9 +1,21 @@
 [
+    {
+    "company": "DataArt (Travel Agency client)",
+    "title": "SR .NET Fullstack developer",
+    "dateFrom": "2024-04-01",
+    "dateTo": null,
+    "tasks": [
+      "Maintenance and development of improvements in existing Azure Functions API",
+      "Maintenance and development of improvements in Vue web application",
+      "Maintaining communication with the client",
+      "Use of Azure Devops to manage tasks and tickets"
+    ]
+  },
   {
     "company": "DataArt (Financial Client NY)",
     "title": "SR .NET Fullstack developer in distributed team",
     "dateFrom": "2022-05-16",
-    "dateTo": null,
+    "dateTo": "2024-03-31",
     "tasks": [
       "Ownership of Rest API project",
       "Development of new WCF services ",
