@@ -1,6 +1,8 @@
+@inject IStringLocalizer<InterfaceConstants> localizer
+
 @foreach (var job in Experience)
     {
-        var dateTo = job.DateTo == null ? "Actualidad" : Convert.ToDateTime(job.DateTo).ToString("Y");
+    var dateTo = job.DateTo == null ? localizer["presentDay"] : Convert.ToDateTime(job.DateTo).ToString("Y");
         <div class="card mb-2">
             <div class="card-header text-white bg-secondary">
                 @job.Company

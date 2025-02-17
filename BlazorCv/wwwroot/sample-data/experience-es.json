@@ -1,9 +1,21 @@
 [
   {
+    "company": "DataArt (Cliente sector Turismo)",
+    "title": "SR .NET Fullstack developer",
+    "dateFrom": "2024-04-01",
+    "dateTo": null,
+    "tasks": [
+      "Mantenimiento y desarrollo de mejoras en API con Azure Functions",
+      "Mantenimiento y desarrollo de mejoras en aplicación web con Vue",
+      "Mantener comunicación con el cliente",
+      "Uso de Azure Devops para administración de tareas y tickets"
+    ]
+  },
+  {
     "company": "DataArt (Cliente sector financiero en NY)",
     "title": "Desarrollador .NET Fullstack SR en equipo distribuido globalmente",
     "dateFrom": "2022-05-16",
-    "dateTo": null,
+    "dateTo": "2024-03-31",
     "tasks": [
       "Referente principal de proyecto Rest API.",
       "Desarrollo de nuevos servicios WCF",
