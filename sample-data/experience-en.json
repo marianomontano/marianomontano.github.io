@@ -5,14 +5,14 @@
     "dateFrom": "2024-04-01",
     "dateTo": null,
     "tasks": [
-      "🔧 Ownership of REST API project",
-      "🛠️ Development of new WCF services",
-      "🔗 Development of new background service integrating third-party API",
-      "⚙️ Maintenance and development of improvements in Windows Services and WCF Services",
-      "🖥️ Maintenance and development of improvements in WPF Application",
-      "🚀 Deployment to different environments",
+      "🔧 Maintenance and development of improvements in existing Azure Functions API",
+      "🌐 Maintenance and development of improvements in Vue web application",
       "💬 Maintaining communication with the client",
-      "📋 Use of Jira Software to manage tasks and tickets"
+      "⚙️ Developed the client's internal ERP system with Netsuite bidirectional integration, saving thousands of hours of manual work a year",
+      "🛠️ Developed several microservices and background workers to automate various business processes",
+      "⬆️ Migrated applications to the latest .NET versions",
+      "👨‍🏫 Mentoring strong-mid a developer",
+      "📋 Use of Azure Devops to manage tasks and tickets"
     ]
   },
   {
