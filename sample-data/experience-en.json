@@ -1,18 +1,18 @@
 [
-    {
+  {
     "company": "DataArt (Travel Agency client)",
     "title": "SR .NET Fullstack developer",
     "dateFrom": "2024-04-01",
     "dateTo": null,
     "tasks": [
-      "Maintenance and development of improvements in existing Azure Functions API",
-      "Maintenance and development of improvements in Vue web application",
-      "Maintaining communication with the client",
-      "Developed the client's internal ERP system with Netsuite bidirectional integration which saved thousands of hours of manual work a year",
-      "Developed several microservices and background workers to automate various business processes",
-      "Migrated applications to the latests .NET versions",
-      "Mentoring strong-mid a developer",
-      "Use of Azure Devops to manage tasks and tickets"
+      "🔧 Ownership of REST API project",
+      "🛠️ Development of new WCF services",
+      "🔗 Development of new background service integrating third-party API",
+      "⚙️ Maintenance and development of improvements in Windows Services and WCF Services",
+      "🖥️ Maintenance and development of improvements in WPF Application",
+      "🚀 Deployment to different environments",
+      "💬 Maintaining communication with the client",
+      "📋 Use of Jira Software to manage tasks and tickets"
     ]
   },
   {
@@ -21,14 +21,14 @@
     "dateFrom": "2022-05-16",
     "dateTo": "2024-03-31",
     "tasks": [
-      "Ownership of Rest API project",
-      "Development of new WCF services ",
-      "Development of new background service integrating third party API",
-      "Maintenance and development of improvements in Windows Services and WCF Services",
-      "Maintenance and development of improvements in WPF Application",
-      "Deployment to different environments",
-      "Maintaining communication with the client",
-      "Use of Jira Software to manage tasks and tickets"
+      "🔧 Ownership of REST API project",
+      "🛠️ Development of new WCF services",
+      "🔗 Development of new background service integrating third-party API",
+      "⚙️ Maintenance and development of improvements in Windows Services and WCF Services",
+      "🖥️ Maintenance and development of improvements in WPF Application",
+      "🚀 Deployment to different environments",
+      "💬 Maintaining communication with the client",
+      "📋 Use of Jira Software to manage tasks and tickets"
     ]
   },
   {
@@ -37,11 +37,11 @@
     "dateFrom": "2022-01-25",
     "dateTo": "2022-05-13",
     "tasks": [
-      "Maintenance and development of improvements and new features in the frontend using ReactJS.",
-      "Maintenance and development of improvements and new features in the backend (REST API) using C# y .NET Core.",
-      "Unit and integration testing using BDD y TDD methodologies.",
-      "Maintenance and addition of code and system documentation",
-      "Use of Azure devops to administer tasks and tickets"
+      "💻 Maintenance and development of improvements and new features in the frontend using ReactJS.",
+      "🖥️ Maintenance and development of improvements and new features in the backend (REST API) using C# and .NET Core.",
+      "🧪 Unit and integration testing using BDD and TDD methodologies.",
+      "📄 Maintenance and addition of code and system documentation",
+      "📋 Use of Azure DevOps to administer tasks and tickets"
     ]
   },
   {
@@ -50,38 +50,24 @@
     "dateFrom": "2021-01-01",
     "dateTo": "2022-01-24",
     "tasks": [
-      "Maintenance and addition of new features to a mobile application (Xamarin Forms with MVVM).",
-      "Improvement and development of new features on a 3 service application. Backend service, application and Web application in ASP .NET MVC. Front end in razor pages and data access with Entity Framework.",
-      "Maintenance and new features to Web application in Web Forms. Front end in xsl stylesheets functionality in Javascript and Jquery, and data access through ADO .NET.",
-      "Maintenance and development of new features to Desktop application in C# and VB .NET. Front end in Windows Forms and data access through ADO .NET.",
-      "Development of Windows services and Console applications using C# .NET and .NET Core.",
-      "Using complex relational databases and Stored Procedures.",
-      "Use of Azure devops to administer tasks and tickets"
+      "📱 Maintenance and addition of new features to a mobile application (Xamarin Forms with MVVM).",
+      "🖥️ Improvement and development of new features on a 3 service application. Backend service, application and Web application in ASP .NET MVC. Front end in razor pages and data access with Entity Framework.",
+      "🌐 Maintenance and new features to Web application in Web Forms. Front end in XSL stylesheets, functionality in Javascript and Jquery, and data access through ADO .NET.",
+      "🖥️ Maintenance and development of new features to Desktop application in C# and VB .NET. Front end in Windows Forms and data access through ADO .NET.",
+      "⚙️ Development of Windows services and Console applications using C# .NET and .NET Core.",
+      "🗄️ Using complex relational databases and Stored Procedures.",
+      "📋 Use of Azure DevOps to administer tasks and tickets"
     ]
   },
   {
-    "company": "Garmin Argentina",
-    "title": "Customer Assistance",
-    "dateFrom": "2017-11-24",
+    "company": "Freelance / Personal Projects",
+    "title": "Independent Developer",
+    "dateFrom": "2018-01-01",
     "dateTo": "2021-01-01",
     "tasks": [
-      "Sales.",
-      "Customer service.",
-      "Product advicing according customers needs."
-    ]
-  },
-  {
-    "company": "Tati Golf / Adidas Golf Argentina",
-    "title": "E-Commerce Manager",
-    "dateFrom": "2013-01-01",
-    "dateTo": "2017-04-30",
-    "tasks": [
-      "Web store management.",
-      "Mercado Libre official store management.",
-      "Sales.",
-      "Customer service.",
-      "Product advicing according customers needs.",
-      "Cashiering."
+      "⚙️ Designed and implemented simple automation background services for family and friends.",
+      "📦 Developed a small stock and sales management system for a family business.",
+      "🌍 Contributed to open source projects to gain practical experience."
     ]
   }
 ]
